@@ -1,0 +1,18 @@
+{
+  "Verona": {
+    "Indirizzo": "Corso Porta Nuova, 1",
+    "ID": "V001",
+    "venditori" : ["N100VR", "N101VR", "N102VR"]
+  },
+
+  "Milano": {
+  },
+
+  "Torino": {
+  },
+
+  "Roma": {
+
+  }
+}
+
