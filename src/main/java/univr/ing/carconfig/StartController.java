@@ -18,8 +18,7 @@ public class StartController {
 
     @FXML
     protected void onLoginButtonClick() {
-        String tmp = userName.getText();
-        //checkUser(tmp);
+        checkUser(userName.getText(), userPassword.getText());
     }
 
     @FXML
@@ -28,6 +27,12 @@ public class StartController {
         stage.close();
     }
 
-    public void checkUser() {
+    public void checkUser(String user, String psw) {
+        // Creo un oggetto utente generico temporaneo per verificare l'identità
+        Utente utente = new Utente(user);
+        boolean canAccess = utente.authentication(user, psw);
+
+        System.out.println(canAccess);
+
     }
 }

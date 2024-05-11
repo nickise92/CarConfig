@@ -1,0 +1,21 @@
+{
+  "Mario Rossi" : {
+    "ID": "V100",
+    "SHOP": "VR",
+    "TYPE": "V",
+    "PSW": "acca"
+  },
+
+  "Carla Bianchi" : {
+    "ID": "S143",
+    "SHOP": "MI",
+    "TYPE": "S",
+    "PSW": "admin"
+  },
+
+  "Franco Verdi": {
+    "ID": "C543",
+    "TYPE": "C",
+    "PSW": "ferrari"
+  }
+}
