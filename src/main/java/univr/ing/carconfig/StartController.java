@@ -35,4 +35,10 @@ public class StartController {
         System.out.println(canAccess);
 
     }
+
+    @FXML
+    protected void openRegistrationForm() {
+        // Imposto una nuova finestra
+
+    }
 }
